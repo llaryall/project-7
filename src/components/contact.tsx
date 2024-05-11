@@ -30,15 +30,15 @@ export default function Contact() {
           {/* Contact Details Section */}
           <div className="flex flex-col gap-4 md:mt-4 lg:mt-6">
             <div className={contactdivTheme}>
-              <Image src="/Email.svg" width={20} height={20} alt="emailLogo"></Image>
+              <Image src="/Email.svg" width={20} height={20} alt="emailIcon"></Image>
               <p className={contanctTheme}>test@gmail.com</p>
             </div>
             <div className={contactdivTheme}>
-              <Image src="/Phone.svg" width={20} height={20} alt="phoneLogo"></Image>
+              <Image src="/Phone.svg" width={20} height={20} alt="phoneIcon"></Image>
               <p className={contanctTheme}>(303) 555-0105</p>
             </div>
             <div className={contactdivTheme}>
-              <Image src="/Location.svg" width={20} height={20} alt="locationLogo"></Image>
+              <Image src="/Location.svg" width={20} height={20} alt="locationIcon"></Image>
               <p className={contanctTheme}>
                 2715 Ash Dr. San Jose, South Dakota 83475
               </p>

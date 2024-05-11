@@ -1,20 +1,24 @@
 import Image from "next/image";
 import Rectangle from "../../public/Rectangle 252.svg";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <>
       <div className="relative flex w-screen">
         {/* Background Image */}
-        <img src="/Rectangle 252.svg" alt="" />
+        <img src="/Rectangle 252.svg" alt="headerBackground" />
 
         {/* Logo Image */}
-        <Image
-          className="absolute inline top-10 z-10 lg:left-52 lg:w-[400px] md:left-36 md:w-[270px] sm:w-[200px] sm:left-32"
-          src="/Group 564.svg"
-          width={0}
-          height={0}
-        />
+        <Link href="/">
+          <Image
+            className="absolute inline top-10 z-10 lg:left-52 lg:w-[400px] md:left-36 md:w-[270px] sm:w-[200px] sm:left-32"
+            src="/Group 564.svg"
+            alt="logo"
+            width={0}
+            height={0}
+          />
+        </Link>
 
         {/* Blue Container */}
         <div className="absolute bottom-0 flex flex-col justify-between bg-[#4D6BB9] rounded-tr-2xl lg:w-[570px] lg:h-[320px] md:w-[390px] md:h-[220px] sm:w-[320px] sm:h-[180px]">
@@ -37,15 +41,14 @@ export default function Header() {
           </div>
 
           {/* Buttons */}
-          <div className="flex items-center justify-center gap-10 lg:ml-5 md:ml-20 sm:ml-20">
-            <button className="p-3 pl-8 pr-8 font-bold text-black bg-[#EFD063] rounded-tl-2xl rounded-tr-2xl lg:text-[11px] md:text-[8px] md:p-2 md:pl-6 md:pr-6 sm:text-[6px] sm:p-2 sm:pr-5 sm:pl-5">
+          <div className="flex items-center justify-center gap-10 lg:ml-10 md:ml-20 sm:ml-20">
+            <button className="p-3 pl-8 pr-8 font-bold text-black bg-[#EFD063] rounded-tl-2xl rounded-tr-2xl lg:text-[11px] md:text-[8px] md:p-2 md:pl-6 md:pr-6 sm:text-[6px] sm:p-2 sm:pr-5 sm:pl-5 hover:bg-[#ffe278] transition-colors">
               I Need Help
             </button>
-            <button className="items-end font-bold text-white lg:text-[11buttonx] md:text-[8px] sm:text-[6px]">
+            <button className="items-end font-bold text-white lg:text-[11px] md:text-[8px] sm:text-[6px] hover:font-extrabold ">
               What the services
             </button>
           </div>
-
         </div>
 
         {/* White Container */}
@@ -70,14 +73,13 @@ export default function Header() {
 
           {/* Buttons */}
           <div className="flex items-center justify-start gap-8 lg:ml-16 md:ml-12 sm:ml-10">
-            <button className="p-3 pl-8 pr-8 font-bold text-white bg-[#4D6BB9] rounded-tl-2xl rounded-tr-2xl lg:text-[11px] md:text-[8px] md:p-2 md:pl-6 md:pr-6 sm:text-[6px] sm:p-2 sm:pr-5 sm:pl-5">
+            <button className="p-3 pl-8 pr-8 font-bold text-white bg-[#4D6BB9] rounded-tl-2xl rounded-tr-2xl lg:text-[11px] md:text-[8px] md:p-2 md:pl-6 md:pr-6 sm:text-[6px] sm:p-2 sm:pr-5 sm:pl-5 hover:bg-[#678ae3] transition-colors">
               I Need Help
             </button>
-            <button className="items-end font-bold text-[#4D6BB9] lg:text-[12px] md:text-[8px] sm:text-[6px]">
+            <button className="items-end font-bold text-[#4D6BB9] lg:text-[12px] md:text-[8px] sm:text-[6px] hover:font-extrabold ">
               What the services
             </button>
           </div>
-
         </div>
       </div>
     </>

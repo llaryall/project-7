@@ -6,7 +6,7 @@ export default function Card({ image }) {
       <div className="flex flex-col gap-5 bg-[#FFFFFF] rounded-3xl drop-shadow-2xl lg:mt-5 lg:w-72 lg:h-[370px] md:w-56 md:h-[300px] sm:w-44 sm:h-[230px] sm:mt-4">
         {/* Image Section */}
         <div>
-          <Image src={image} width={300} height={300}></Image>
+          <Image src={image} width={300} height={300} alt="cardImage"></Image>
 
           {/* Text Section */}
           <div className="p-5 w-[90%]">

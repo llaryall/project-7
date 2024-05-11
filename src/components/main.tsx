@@ -23,7 +23,7 @@ export default function Main() {
         </div>
 
         {/* Image */}
-        <img className="w-[68%] mr-9" src="/Union.svg" alt="" />
+        <img className="w-[68%] mr-9" src="/Union.svg" alt="MainBackground" />
 
         {/* We are Family Section */}
         <div className="absolute flex flex-col justify-between bg-[#FFFFFF] rounded-3xl drop-shadow-2xl lg:w-[440px] lg:h-[300px] lg:right-[440px] lg:-bottom-48 md:w-[300px] md:h-[210px] md:right-[330px] md:-bottom-36 sm:w-[250px] sm:h-[160px] sm:-bottom-24 sm:right-[230px]">

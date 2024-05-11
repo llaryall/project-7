@@ -21,7 +21,7 @@ export default function Footer() {
         </div>
 
         {/* Button */}
-        <button className="lg:text-[12px] m-12 lg:ml-[560px] text-white bg-[#4D6BB9] lg:p-4 lg:pl-8 lg:pr-8 rounded-[35px] md:p-3.5 md:pl-8 md:pr-8 md:text-[9px] md:ml-[400px] sm:text-[6px] sm:p-2 sm:pl-6 sm:pr-6 sm:ml-[300px]">
+        <button className="lg:text-[12px] m-12 lg:ml-[560px] text-white bg-[#4D6BB9] lg:p-4 lg:pl-8 lg:pr-8 rounded-[35px] md:p-3.5 md:pl-8 md:pr-8 md:text-[9px] md:ml-[400px] sm:text-[6px] sm:p-2 sm:pl-6 sm:pr-6 sm:ml-[300px] hover:bg-[#678ae3] transition-colors">
           Lorem Ipsum
         </button>
       </div>
